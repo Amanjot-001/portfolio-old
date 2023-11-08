@@ -20,7 +20,7 @@ export default function Header() {
                     </p>
                 </div>
                 <div className="socials">
-                    <SocialBtn value={'Resume'} href={'#'} />
+                    <SocialBtn value={'Resume'} href={'https://drive.google.com/file/d/1_TpJsqKFHkDnF44mALbsdUshWY1cY3Sk/view?usp=sharing'} />
                     <SocialBtn value={'Github'} href={'https://github.com/Amanjot-001'} />
                     <SocialBtn value={'Twitter'} href={'https://twitter.com/Amanjotsingh001'} />
                     <SocialBtn value={'LinkedIn'} href={'https://www.linkedin.com/in/amanjot-singh-2298a6232/'} />
