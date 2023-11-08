@@ -3,15 +3,21 @@
     src: url('../fonts/ComingSoon-Regular.ttf');
 }
 
+@font-face {
+    font-family: dela-gothic-one;
+    src: url('../fonts/DelaGothicOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
 .header {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 70vh;
-}
-
-.main {
-    width: 60%;
 }
 
 .marquee {
@@ -43,4 +49,28 @@
 @keyframes text-scroll {
     0% { transform: translate3d(0, 0, 0); }
     100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* height: 60%; */
+    width: 60%;
+    border: 5px solid #000;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.greet p{
+    font-family: 'dela-gothic-one', sans-serif;
+    font-size: 2.5rem;
+
+    >span {
+        color: #f5bc38;
+    }
+}
+
+.info {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
 }

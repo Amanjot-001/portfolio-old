@@ -11,7 +11,7 @@ export default function Header() {
             <div className="bg-2"></div>
             <div className="main">
                 <div className="greet">
-                    <p>Hi I'M AMANJOT SINGH</p>
+                    <p>Hi I'M <span>AMANJOT SINGH</span></p>
                 </div>
                 <div className="info">
                     <p>
