@@ -1,4 +1,5 @@
 import '../assets/styles/Header.css'
+import SocialBtn from './SocialBtn'
 
 export default function Header() {
     return (
@@ -18,7 +19,12 @@ export default function Header() {
                         Enthusiastic computer science engineering student deeply passionate about programming, web development, and software engineering. Join me as I unveil a world of skills and projects in the realm of technology.
                     </p>
                 </div>
-                <div className="socials"></div>
+                <div className="socials">
+                    <SocialBtn value={'Resume'} href={'#'} />
+                    <SocialBtn value={'Github'} href={'https://github.com/Amanjot-001'} />
+                    <SocialBtn value={'Twitter'} href={'https://twitter.com/Amanjotsingh001'} />
+                    <SocialBtn value={'LinkedIn'} href={'https://www.linkedin.com/in/amanjot-singh-2298a6232/'} />
+                </div>
             </div>
         </div>
     )
