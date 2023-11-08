@@ -16,13 +16,14 @@
 .header {
     position: relative;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100vw;
     height: 70vh;
 }
 
 .marquee {
-    width: 30%;
+    width: 35%;
+    height: max-content;
     padding: 1rem;
     font-family: 'coming-soon', cursive;
     font-size: 1.5rem;
@@ -57,6 +58,16 @@
     }
 }
 
+.bg-1 {
+    margin: 1rem;
+    width: 65%;
+    border: 7px solid #000;
+    background-image: url('../images/bg-img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .main {
     position: absolute;
     top: 7rem;
@@ -69,11 +80,12 @@
     padding: 1.2rem;
     gap: 1.5rem;
     background-color: #fff;
+    box-shadow: 1rem 1.125rem 0 #000;
 }
 
 .greet p {
     font-family: 'dela-gothic-one', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
 
     >span {
         color: #f5bc38;

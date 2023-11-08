@@ -9,10 +9,9 @@ export default function Header() {
                 <div className="marquee-text">Living in India / third year engineering student.</div>
             </div>
             <div className="bg-1"></div>
-            <div className="bg-2"></div>
             <div className="main">
                 <div className="greet">
-                    <p>Hi I'M <span>AMANJOT SINGH</span></p>
+                    <p>Hi I'M &nbsp;&nbsp;<span>AMANJOT SINGH</span></p>
                 </div>
                 <div className="info">
                     <p>
