@@ -1,10 +1,46 @@
+@font-face {
+    font-family: coming-soon;
+    src: url('../fonts/ComingSoon-Regular.ttf');
+}
+
 .header {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100%;
+    height: 70vh;
 }
 
 .main {
     width: 60%;
+}
+
+.marquee {
+    width: 30%;
+    padding: 1rem;
+    font-family: 'coming-soon', cursive;
+    font-size: 1.5rem;
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marquee .marquee-text {
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #475747;
+    flex-shrink: 0;
+    padding: 0 15px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    animation: text-scroll 10s linear infinite;
+}
+
+@keyframes text-scroll {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
 }

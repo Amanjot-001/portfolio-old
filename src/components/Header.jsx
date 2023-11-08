@@ -3,7 +3,10 @@ import '../assets/styles/Header.css'
 export default function Header() {
     return (
         <div className="header">
-            <div className="marquee"></div>
+            <div className="marquee">
+                <div className="marquee-text">Living in India / third year engineering student.</div>
+                <div className="marquee-text">Living in India / third year engineering student.</div>
+            </div>
             <div className="bg-1"></div>
             <div className="bg-2"></div>
             <div className="main">
