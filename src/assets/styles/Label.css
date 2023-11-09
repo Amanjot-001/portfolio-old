@@ -13,4 +13,11 @@ h1 {
     text-align: start;
     border-left: 4px solid #000;
     border-right: 4px solid #000;
+    background-color: #da4a2f;
+    color: #fff;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
 }
