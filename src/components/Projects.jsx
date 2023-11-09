@@ -1,19 +1,24 @@
 import '../assets/styles/Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import Project from './Project'
 
 const projects = [
     {
-        name: 'vyzon'
+        name: 'vyzon',
+        heading: ['Programming', 'Language'],
     },
     {
-        name: 'galaxy'
+        name: 'galaxy',
+        heading: ['Integrated', 'Learning', 'Platform'],
     },
     {
-        name: 'semicolon'
+        name: 'semicolon',
+        heading: ['Touch', 'typing', 'Platform'],
     },
     {
-        name: 'code convertor'
+        name: 'code convertor',
+        heading: ['Transform', 'Code'],
     },
 ]
 
@@ -24,13 +29,15 @@ export default function Projects() {
                 <div className="nav-content">
                     {projects.map((project, index) => (
                         <div key={index} className="nav-item">
-                        <FontAwesomeIcon icon={faPlay} />
-                        {project.name} &nbsp; &nbsp;
-                      </div>
+                            <FontAwesomeIcon icon={faPlay} />
+                            {project.name} &nbsp; &nbsp;
+                        </div>
                     ))}
                 </div>
             </div>
-            <div className="project-show"></div>
+            <div className="project-show">
+                <Project data={projects[0]} />
+            </div>
         </div>
     )
 }
