@@ -19,6 +19,9 @@
     /* flex-direction: column; */
     width: 100vw;
     height: 70vh;
+    padding: 1rem;
+    border-bottom: 4px solid #000;
+    /* clip-path: polygon(0 0,100% 0,100% 100%,0 87%); */
 }
 
 .marquee {
@@ -59,10 +62,10 @@
 }
 
 .bg-1 {
-    margin: 1rem;
+    margin: 0.5rem;
     width: 65%;
-    border: 7px solid #000;
-    background-image: url('../images/bg-img.jpeg');
+    border: 8px solid #000;
+    background-image: url('../images/bg-img-2.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
