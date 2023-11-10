@@ -1,9 +1,9 @@
 .projects {
     display: grid;
     margin: 1rem;
-    padding-left: 6rem;
+    padding-left: calc(6rem - 2px);
     grid-template-columns: 20% 80%;
-    border: 5px solid #000;
+    border: 6px solid #000;
     background-color: #da4a2f;
 }
 
