@@ -33,10 +33,12 @@ export default function Project({ data }) {
             </div>
             <div className="project-navs">
                 <div className="links">
-                    <a className="website" href={data.website}>
-                        <FontAwesomeIcon icon={faGlobe} style={{ color: '#000' }} />
-                        website
-                    </a>
+                    {data.website && (
+                        <a className="website" href={data.website}>
+                            <FontAwesomeIcon icon={faGlobe} style={{ color: '#000' }} />
+                            website
+                        </a>
+                    )}
                     <a className="github" href={data.github}>
                         <FontAwesomeIcon icon={faGithub} style={{ color: '#000' }} />
                         source
