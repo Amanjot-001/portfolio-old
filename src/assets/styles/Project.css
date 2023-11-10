@@ -63,22 +63,65 @@
     width: 100%;
     height: 100%;
     max-width: 100%;
-    display: block; 
+    /* display: block; 
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
-.img-btns {
+.project-navs {
     display: flex;
     width: 90%;
     margin: 0 1rem 1rem 1rem;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     font-size: 2rem;
 }
 
-.img-btns div {
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poopins', sans-serif;
+    font-size: 1.5rem;
+    background-color: #007c72;
+}
+
+.website {
+    display: flex;
+    gap: 0.5rem;
+    color: #fff;
+    padding: 1rem;
+    border: 4px solid #000;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.github {
+    display: flex;
+    gap: 0.5rem;
+    color: #fff;
+    padding: 1rem;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.btns div {
     padding: 1rem;
     background-color: #007c72;
     cursor: pointer;
