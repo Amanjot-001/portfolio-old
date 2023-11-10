@@ -7,6 +7,7 @@ const projects = [
     {
         name: 'vyzon',
         heading: ['Programming', 'Language'],
+        images: ['../assets/images/vyzon/desktop-1.png', '../assets/images/vyzon/desktop-2.png']
     },
     {
         name: 'galaxy',
