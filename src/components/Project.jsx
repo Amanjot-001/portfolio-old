@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types'
 import '../assets/styles/Project.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight, faAngleLeft, faGlobe } from '@fortawesome/free-solid-svg-icons'
@@ -67,16 +68,20 @@ export default function Project({ data }) {
                 </div>
                 {hoveredDescBtn === 'short' ? (
                     <div className="short-desc">
-                        <p>Made my own programming language from scratch.</p>
+                        <p>{data.short}</p>
                     </div>
                 ) : (
                     <div className="long-desc">
-                        <p>support for basic operations like functions, loops, conditionals, and oops.</p>
-                        <p>build tokenizer, parser, interpreter for the language showcasing language designing skills.</p>
-                        <p>hosted on netlify to make others able to test it out without any hassle.</p>
+                        {data.long.map((text, index) => (
+                            <p key={index}>{text}</p>
+                        ))}
                     </div>
                 )}
             </div>
         </div>
     )
+}
+
+Project.propTypes = {
+    data: PropTypes.object
 }

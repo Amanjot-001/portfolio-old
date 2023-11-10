@@ -11,6 +11,10 @@ const projects = [
         images: [desktop1, desktop2],
         github: 'https://github.com/Amanjot-001/Vyzon',
         website: 'https://vyzon.netlify.app/',
+        short: 'Made my own programming language from scratch.',
+        long: ['support for basic operations like functions, loops, conditionals, and oops.',
+                'build tokenizer, parser, interpreter for the language showcasing language designing skills.',
+                'hosted on netlify to make others able to test it out without any hassle.'],
     },
     {
         name: 'galaxy',
