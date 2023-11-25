@@ -10,17 +10,14 @@
 }
 
 .marquee {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     width: 35%;
     height: max-content;
     padding: 1rem;
     font-family: 'coming-soon', cursive;
     font-size: 1.5rem;
-}
-
-.marquee {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
 }
 
 .marquee .marquee-text {

@@ -81,13 +81,41 @@ export default function Project({ data }) {
                 )}
             </div>
             <div className="tech">
-                <div className='carousel'>
-                    {data.tech.map((obj, index) => (
-                        <div key={index} className="tech-stack">
-                            <p className='tech-name'>{obj.techName}</p>
-                            <img className='tech-image' src={obj.img} alt="tech-image" />
+                <div className={`carousel ${data.tech.length > 4 ? 'start' : ''}`}>
+                    <div className={`moving-text ${data.tech.length > 4 ? 'moving' : ''}`}>
+                        {data.tech.map((obj, index) => (
+                            <div key={index} className="tech-stack">
+                                <p className='tech-name'>{obj.techName}</p>
+                                <img className='tech-image' src={obj.img} alt="tech-image" />
+                            </div>
+                        ))}
+                        {data.tech.length > 4 &&
+                            data.tech.map((obj, index) => (
+                                <div key={index} className="tech-stack">
+                                    <p className='tech-name'>{obj.techName}</p>
+                                    <img className='tech-image' src={obj.img} alt="tech-image" />
+                                </div>
+                            ))
+                        }
+                    </div>
+                    {data.tech.length > 4 &&
+                        <div className={`moving-text ${data.tech.length > 4 ? 'moving' : ''}`}>
+                            {data.tech.map((obj, index) => (
+                                <div key={index} className="tech-stack">
+                                    <p className='tech-name'>{obj.techName}</p>
+                                    <img className='tech-image' src={obj.img} alt="tech-image" />
+                                </div>
+                            ))}
+                            {data.tech.length > 4 &&
+                                data.tech.map((obj, index) => (
+                                    <div key={index} className="tech-stack">
+                                        <p className='tech-name'>{obj.techName}</p>
+                                        <img className='tech-image' src={obj.img} alt="tech-image" />
+                                    </div>
+                                ))
+                            }
                         </div>
-                    ))}
+                    }
                 </div>
                 <div className="tech-label">
                     tech<br />
