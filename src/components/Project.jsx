@@ -80,6 +80,14 @@ export default function Project({ data }) {
                     </div>
                 )}
             </div>
+            <div className="tech">
+                <div className="tech-label">
+                    tech
+                </div>
+                <div className="carousel">
+                    
+                </div>
+            </div>
         </div>
     )
 }
