@@ -11,6 +11,7 @@
     font-weight: 700;
     background-color: #f5bc38;
     box-shadow: 0 8px 0 -3px #c2952c, 0 8px 0 0 #000;
+    /* transition: transform 1s ease-in-out; */
 
     &:hover {
         background-color: #f5bc38B3;
@@ -20,4 +21,15 @@
 a {
     text-decoration: none;
     color: #000;
+}
+
+.clicked {
+    animation: bounce ease 0.8s forwards;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(10px);
+        box-shadow: none;
+    }
 }
