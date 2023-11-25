@@ -1,9 +1,11 @@
 .projects {
     display: grid;
-    margin: 1rem;
-    padding-left: calc(6rem - 2px);
-    grid-template-columns: 20% 80%;
-    border: 6px solid #000;
+    margin: 1rem 0;
+    width: 100% ;
+    /* padding-left: calc(6rem - 2px); */
+    grid-template-columns: 10% 20% 70%;
+    border-top: 6px solid #000;
+    border-bottom: 6px solid #000;
     background-color: #da4a2f;
 }
 

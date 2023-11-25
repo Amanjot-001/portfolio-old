@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types'
 import '../assets/styles/Project.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -81,7 +81,7 @@ export default function Project({ data }) {
                 )}
             </div>
             <div className="tech">
-                <div className="carousel">
+                <div className='carousel'>
                     {data.tech.map((obj, index) => (
                         <div key={index} className="tech-stack">
                             <p className='tech-name'>{obj.techName}</p>

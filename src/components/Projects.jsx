@@ -19,7 +19,51 @@ const projects = [
             {
                 techName: 'Javascript',
                 img: js
-            }
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
+            {
+                techName: 'Javascript',
+                img: js
+            },
         ]
     },
     {
@@ -44,6 +88,7 @@ const projects = [
 export default function Projects() {
     return (
         <div className="projects">
+            <div className="empty-space"></div>
             <div className="nav">
                 <div className="nav-content">
                     {projects.map((project, index) => (
