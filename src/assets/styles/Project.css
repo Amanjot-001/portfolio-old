@@ -236,7 +236,7 @@
     white-space: nowrap;
     flex-shrink: 0;
     transform: translateX(0);
-    animation: text-scroll 12s linear infinite;
+    animation: text-scroll 15s linear infinite;
 }
 
 @keyframes text-scroll {

@@ -19,22 +19,6 @@ const projects = [
             {
                 techName: 'Javascript',
                 img: js
-            },
-            {
-                techName: 'Javascript',
-                img: js
-            },
-            {
-                techName: 'Javascript',
-                img: js
-            },
-            {
-                techName: 'Javascript',
-                img: js
-            },
-            {
-                techName: 'Javascript',
-                img: js
             }
         ]
     },

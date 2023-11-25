@@ -9,6 +9,7 @@ function App() {
             <Header />
             <Label title={'WORK'} />
             <Projects />
+            <Label title={'ABOUT'} />
         </div>
     )
 }
