@@ -2,7 +2,7 @@ import '../assets/styles/Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import Project from './Project'
-import { desktop1, desktop2 } from '../utils/imageImports'
+import { desktop1, desktop2, js } from '../utils/imageImports'
 
 const projects = [
     {
@@ -15,6 +15,12 @@ const projects = [
         long: ['support for basic operations like functions, loops, conditionals, and oops.',
                 'build tokenizer, parser, interpreter for the language showcasing language designing skills.',
                 'hosted on netlify to make others able to test it out without any hassle.'],
+        tech: [
+            {
+                techName: 'Javascript',
+                img: js
+            }
+        ]
     },
     {
         name: 'galaxy',

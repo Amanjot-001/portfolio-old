@@ -81,11 +81,17 @@ export default function Project({ data }) {
                 )}
             </div>
             <div className="tech">
-                <div className="tech-label">
-                    tech
-                </div>
                 <div className="carousel">
-                    
+                    {data.tech.map((obj, index) => (
+                        <div key={index} className="tech-stack">
+                            <p className='tech-name'>{obj.techName}</p>
+                            <img className='tech-image' src={obj.img} alt="tech-image" />
+                        </div>
+                    ))}
+                </div>
+                <div className="tech-label">
+                    tech<br />
+                    stack
                 </div>
             </div>
         </div>
