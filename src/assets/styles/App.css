@@ -5,18 +5,18 @@
 }
 
 @font-face {
-    font-family: coming-soon;
-    src: url('../fonts/ComingSoon-Regular.ttf');
+  font-family: coming-soon;
+  src: url('../fonts/ComingSoon-Regular.ttf');
 }
 
 @font-face {
-    font-family: dela-gothic-one;
-    src: url('../fonts/DelaGothicOne-Regular.ttf');
+  font-family: dela-gothic-one;
+  src: url('../fonts/DelaGothicOne-Regular.ttf');
 }
 
 @font-face {
-    font-family: poppins;
-    src: url('../fonts/Poppins-Light.ttf');
+  font-family: poppins;
+  src: url('../fonts/Poppins-Light.ttf');
 }
 
 @font-face {
@@ -25,14 +25,14 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 
 #app {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100vw;
-  margin-bottom: 2rem;
+  margin: 1rem;
+  /* overflow-y: auto; */
+  background-color: #f4f9fc;
 }

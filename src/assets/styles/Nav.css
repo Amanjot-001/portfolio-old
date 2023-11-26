@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f9fc;
+    padding: 2rem;
+}
+
+.left,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    color: #7f00e0;
+    font-size: 2rem;
+}
+
+.menu,
+.separator {
+    font-family: poppins;
+    color: #0f1b61;
+    font-size: 1.2rem;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.separator {
+    font-size: 2.5rem;
+}
+
+.contact {
+    color: #0f1b61;
+    font-size: 2rem;
+
+    >.text {
+        font-size: 1.2rem;
+        font-family: poppins;
+        color: #0f1b61;
+    }
+}
